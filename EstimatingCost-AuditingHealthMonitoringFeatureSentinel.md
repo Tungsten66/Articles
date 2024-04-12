@@ -3,11 +3,11 @@
 This walkthrough helps estimate the cost of enabling the auditing and health monitoring feature for Microsoft Sentinel.
 
 ## Cited Resources:
-[Turn on auditing and health monitoring for Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/enable-monitoring)
-[_IsBillable](https://learn.microsoft.com/en-US/azure/azure-monitor/logs/log-standard-columns#_isbillable)
-[Microsoft Sentinel pricing](https://azure.microsoft.com/en-us/pricing/details/microsoft-sentinel/)
-[Rod-Trent:TableUsageandCost](https://github.com/rod-trent/SentinelKQL/blob/master/TableUsageandCost.txt)
-[Ian Hanley:Cost of a Table.kql](https://github.com/EEN421/KQL-Queries/blob/Main/Cost%20of%20a%20Table.kql)
+[Turn on auditing and health monitoring for Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/enable-monitoring) <br/>
+[_IsBillable](https://learn.microsoft.com/en-US/azure/azure-monitor/logs/log-standard-columns#_isbillable) <br/>
+[Microsoft Sentinel pricing](https://azure.microsoft.com/en-us/pricing/details/microsoft-sentinel/) <br/>
+[Rod-Trent: TableUsageandCost](https://github.com/rod-trent/SentinelKQL/blob/master/TableUsageandCost.txt) <br/>
+[Ian Hanley: Cost of a Table.kql](https://github.com/EEN421/KQL-Queries/blob/Main/Cost%20of%20a%20Table.kql) <br/>
 
 ## Assumptions:
 
