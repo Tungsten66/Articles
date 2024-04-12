@@ -101,6 +101,6 @@ KQL results:
 
 ## Post Condition:
 
-This can be used for any table to assist in estimating cost of over a period of time.  
+This can be used for any table to assist in estimating cost over a period of time.  
 Several workbooks in Microsoft Sentinel are also available to estimate cost and include additional factors like Microsoft Sentinel benefit for Microsoft 365 E5, A5, F5 and G5 customers.
 
