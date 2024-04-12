@@ -39,8 +39,9 @@ KQL results:
 
 ![kql results](images/EstimatingCost-AuditingHealthMonitoringFeatureSentinel-2.png)
 
-### Now we can focus on the SentinelAudit table because it is the only table that is billable for this feature.
-Let's make sure we see data in the SentinelAudit table
+### Let's make sure we see data in the SentinelAudit table
+Now we can focus on the SentinelAudit table because it is the only table that is billable for this feature.
+
 
 ```kusto
 SentinelAudit | take 10
