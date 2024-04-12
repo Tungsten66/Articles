@@ -30,5 +30,7 @@ In no apparent order
 ## Training
 - [Microsoft Sentinel Ninja](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/become-a-microsoft-sentinel-ninja-the-complete-level-400/ba-p/1246310)
 
+## Data ingestion
+[How to configure Security Events collection with Azure Monitor Agent](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/how-to-configure-security-events-collection-with-azure-monitor/ba-p/3770719) - This article is helpful when migrating from the legacy Log Analytics agent and the Defender for Servers auto-provisioning experience to Azure Monitoring Agent (AMA).
 
 []()
