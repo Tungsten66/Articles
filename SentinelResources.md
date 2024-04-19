@@ -33,4 +33,8 @@ In no apparent order
 ## Data ingestion
 [How to configure Security Events collection with Azure Monitor Agent](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/how-to-configure-security-events-collection-with-azure-monitor/ba-p/3770719) - This article is helpful when migrating from the legacy Log Analytics agent and the Defender for Servers auto-provisioning experience to Azure Monitoring Agent (AMA).
 
+## Testing
+[How to Generate Microsoft Sentinel Incidents for Testing and Demos](https://rodtrent.substack.com/p/how-to-generate-microsoft-sentinel)
+
+
 []()
