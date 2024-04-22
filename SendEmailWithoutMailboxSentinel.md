@@ -98,7 +98,9 @@ SecurityAlert
 
 Or incidents that are from specific tactics?
 
+```kusto
 SecurityAlert
 | where ProductName == "Azure Sentinel"
 | where ProviderName == "ASI NRT Alerts"
 | where Tactics == "DefenseEvasion"
+```
