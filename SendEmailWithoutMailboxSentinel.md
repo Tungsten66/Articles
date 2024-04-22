@@ -102,4 +102,3 @@ SecurityAlert
 | where ProductName == "Azure Sentinel"
 | where ProviderName == "ASI NRT Alerts"
 | where Tactics == "DefenseEvasion"
-![image](https://github.com/Tungsten66/Articles/assets/40893034/ddd802ba-3bd4-45e1-9ec2-266a6fcd9b1b)
