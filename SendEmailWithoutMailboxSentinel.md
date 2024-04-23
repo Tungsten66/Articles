@@ -67,7 +67,7 @@ After reviewing click the Create button
 
 ## Validate
 
-Check the e-mail you used for the following items.  Depending on your spam filter the e-mails may be in Other of Junk.
+Check the e-mail you used for the following items.  Depending on your spam filter the e-mails may be in Other or Junk.
 
 ![e-mail](images/SendEmailWithoutMailboxSentinel-4.png)
 
