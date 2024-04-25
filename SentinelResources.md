@@ -1,9 +1,6 @@
 # Microsoft Sentinel resources that I have found useful
 In no apparent order
 
-## Architecture Planning
-- [Service limits for Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/sentinel-service-limits)
-
 ## Workbooks
 - Start here - [Commonly used Microsoft Sentinel workbooks](https://learn.microsoft.com/en-us/azure/sentinel/top-workbooks)
 - [Data Collection Rule Toolkit](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/create-edit-and-monitor-data-collection-rules-with-the-data/ba-p/3810987) - Create, Edit, and Monitor Data Collection Rules with the Data Collection Rule Toolkit
@@ -33,8 +30,13 @@ In no apparent order
 ## Data ingestion
 [How to configure Security Events collection with Azure Monitor Agent](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/how-to-configure-security-events-collection-with-azure-monitor/ba-p/3770719) - This article is helpful when migrating from the legacy Log Analytics agent and the Defender for Servers auto-provisioning experience to Azure Monitoring Agent (AMA).
 
+## Azure Monitor
+- [Azure Arc for Servers Monitoring Workbook](https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-for-servers-monitoring-workbook/ba-p/3298791) - Used this to identify network connectivity issues between on-prem and Azure
+- [The Ultimate Azure Inventory Dashboard](https://github.com/scautomation/Azure-Inventory-Workbook) - This is great to find orphaned resources
+
 ## Testing
 [How to Generate Microsoft Sentinel Incidents for Testing and Demos](https://rodtrent.substack.com/p/how-to-generate-microsoft-sentinel)
 
-
+## Service Limits
+- [Service limits for Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/sentinel-service-limits)
 []()
