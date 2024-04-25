@@ -40,3 +40,7 @@ In no apparent order
 ## Service Limits
 - [Service limits for Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/sentinel-service-limits)
 []()
+
+## MMA to AMA Migration
+- [AzTS MMA Discovery and Removal Utility](https://github.com/azsk/AzTS-docs/tree/main/MMA%20Removal%20Utility)
+- [How to configure Security Events collection with Azure Monitor Agent](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/how-to-configure-security-events-collection-with-azure-monitor/ba-p/3770719) - Useful when migrating from legacy Log Analytics agent and the Defender for Servers auto-provisioning experience
