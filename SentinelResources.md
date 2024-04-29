@@ -33,6 +33,7 @@ In no apparent order
 ## Azure Monitor
 - [Azure Arc for Servers Monitoring Workbook](https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-for-servers-monitoring-workbook/ba-p/3298791) - Used this to identify network connectivity issues between on-prem and Azure
 - [The Ultimate Azure Inventory Dashboard](https://github.com/scautomation/Azure-Inventory-Workbook) - This is great to find orphaned resources
+- [Monitoring for an Azure Server Going Offline](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/monitoring-for-an-azure-server-going-offline/ba-p/4027353)
 
 ## Testing
 [How to Generate Microsoft Sentinel Incidents for Testing and Demos](https://rodtrent.substack.com/p/how-to-generate-microsoft-sentinel)
