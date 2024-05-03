@@ -49,5 +49,5 @@ In no apparent order
 - [How to configure Security Events collection with Azure Monitor Agent](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/how-to-configure-security-events-collection-with-azure-monitor/ba-p/3770719) - Useful when migrating from legacy Log Analytics agent and the Defender for Servers auto-provisioning experience
 
 ## Retention
-[Review and Manage Data Table Retention](https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Archive-Log-Tool/ArchiveLogsTool-PowerShell) - PowerShell script view and manage Data Table Retention
+[Review and Manage Data Table Retention](https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Archive-Log-Tool/ArchiveLogsTool-PowerShell) - PowerShell script to view and manage Data Table Retention
 []()
