@@ -41,6 +41,8 @@ In no apparent order
 
 ## Service Limits
 - [Service limits for Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/sentinel-service-limits)
+- [Azure Monitor service limits](https://learn.microsoft.com/en-us/azure/azure-monitor/service-limits)
+- [Log Analytics workspaces](https://learn.microsoft.com/en-us/azure/azure-monitor/service-limits#log-analytics-workspaces)
 []()
 
 ## MMA to AMA Migration
