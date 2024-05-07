@@ -50,4 +50,5 @@ In no apparent order
 
 ## Retention
 [Review and Manage Data Table Retention](https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Archive-Log-Tool/ArchiveLogsTool-PowerShell) - PowerShell script to view and manage Data Table Retention
+[Automation: Integrate Azure Data Explorer as Long-Term Log Retention for Microsoft Sentinel](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/automation-integrate-azure-data-explorer-as-long-term-log/ba-p/2512703)
 []()
