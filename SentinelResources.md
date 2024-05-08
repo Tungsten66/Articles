@@ -50,6 +50,7 @@ In no apparent order
 
 ## Retention
 - [Review and Manage Data Table Retention](https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Archive-Log-Tool/ArchiveLogsTool-PowerShell) - PowerShell script to view and manage Data Table Retention
+-  [Log Analytics workspace data export in Azure Monitor -Supported Tables](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-data-export?tabs=portal#supported-tables)
 - [Automation: Integrate Azure Data Explorer as Long-Term Log Retention for Microsoft Sentinel](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/automation-integrate-azure-data-explorer-as-long-term-log/ba-p/2512703)
-- [Supported Tables: Log Analytics workspace data export in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-data-export?tabs=portal#supported-tables)
+
 []()
