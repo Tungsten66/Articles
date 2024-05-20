@@ -19,6 +19,7 @@ In no apparent order
 - [Azure Active Directory Identity Protection user account enrichments removed: how to mitigate impact](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/azure-active-directory-identity-protection-user-account/ba-p/3695968)
 - [Conditional Access policy changes](https://danielchronlund.com/2022/04/13/monitor-conditional-access-with-microsoft-sentinel/)
 - [Create an Alert in Sentinel if someone enables Copilot for Security](https://socautomators.substack.com/p/create-an-alert-in-sentinel-if-someone?r=1xuboc&utm_campaign=post&utm_medium=web&triedRedirect=true)
+- [Lookback period](https://learn.microsoft.com/en-us/azure/sentinel/detect-threats-custom?tabs=azure-portal#:~:text=The%20allowed%20range%20for%20both%20of%20these%20parameters%20is%20from%205%20minutes%20to%2014%20days)
 
 ### Managing Analytics Rules
 - [How To Enable Microsoft Sentinel Analytics Rules at Scale](https://charbelnemnom.com/set-microsoft-sentinel-analytics-rules-at-scale/)
