@@ -31,6 +31,8 @@ In no apparent order
 ## Data ingestion
 - [How to configure Security Events collection with Azure Monitor Agent](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/how-to-configure-security-events-collection-with-azure-monitor/ba-p/3770719) - This article is helpful when migrating from the legacy Log Analytics agent and the Defender for Servers auto-provisioning experience to Azure Monitoring Agent (AMA).
 - [Use Windows Event Forwarding to help with intrusion detection](https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/use-windows-event-forwarding-to-assist-in-intrusion-detection)
+- [Sample data collection rules (DCRs) in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-samples)  - Great reference when consolidating DCRs
+- [Structure of a data collection rule in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-structure) - Use this when manually modifiny a DCR and need to understand the structure
 
 ## Azure Monitor
 - [Azure Arc for Servers Monitoring Workbook](https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-for-servers-monitoring-workbook/ba-p/3298791) - Used this to identify network connectivity issues between on-prem and Azure
