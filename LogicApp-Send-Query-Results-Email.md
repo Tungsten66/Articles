@@ -34,7 +34,6 @@ This walkthrough is to show you have to create a Logic App to send an e-mail if 
 - Select Run query and visualize results from the Actions tab
 - 
 
-
 ```powershell
 # Replace 'PGJvZHk+VGhlIHF1ZXJ5IHlpZWxkZWQgbm8gZGF0YVRhYmxlLjwvYm9keT4=' with your actual Base64 string
 $base64String = 'PGJvZHk+VGhlIHF1ZXJ5IHlpZWxkZWQgbm8gZGF0YVRhYmxlLjwvYm9keT4='
@@ -46,10 +45,5 @@ $asciiString = [System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBas
 Write-Host "Decoded ASCII string: $asciiString"
 ```
 
-
-
-
 ## Post Condition:
 
-This can be used for any table to assist in estimating cost over a period of time.  
-Several workbooks in Microsoft Sentinel are also available to estimate cost and include additional factors like Microsoft Sentinel benefit for Microsoft 365 E5, A5, F5 and G5 customers.
