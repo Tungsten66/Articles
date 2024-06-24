@@ -86,8 +86,11 @@ Write-Host "Decoded ASCII string: $asciiString"
 
 ## Post Condition:
 When a query is ran and results are returned the condition will be true and the user will receive an e-mail <br/>
-![Apklication logon attempts](images/LogicApp-Send-Query-Results-Email-9.png)
+![Application logon attempts](images/LogicApp-Send-Query-Results-Email-9.png)
 
 When a query is ran and **no** results are returned the condition will be false and the action will be terminiated with a cancelled status
+
+If you receive an email that doe not have any results and has "The query yielded no dataTable go back and check you entered everything in the condition correctly
+![Application logon attempts fail](images/LogicApp-Send-Query-Results-Email-10.png)
 
 
