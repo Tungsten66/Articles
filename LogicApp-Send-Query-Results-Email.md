@@ -9,7 +9,7 @@ This walkthrough is to show you have to create a Logic App to send an e-mail if 
 ## Assumptions:
 
 - A Log Analytics Workspace exists and contains tables and data
-- 
+- basic knowledge on how to create a Logic App
 
 ## Steps:
 
