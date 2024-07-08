@@ -39,14 +39,25 @@ This walkthrough is to show you have to create a Logic App to send an e-mail if 
   ![Azure Monitor Logs](images/LogicApp-Send-Query-Results-Email-4.png)
 - Populate information where your Log Analytics Workspace is located
 - Query: Enter the KQL query you want to use
+
+Example Query
+```kql
+SigninLogs
+| where TimeGenerated >ago(1d)
+| summarize Attempts = count(), Failed=countif(ResultType !=0), Succeeded = countif(ResultType ==0) by AppDisplayName
+| top 10 by Failed
+| sort by Failed
+```
+
 - Time Range: The example query I used has TimeGenerated so I cam going to select _Set in query_
 - Chart Type: Html Table <br/>
   ![Run query and visualize results](images/LogicApp-Send-Query-Results-Email-5.png)
+
 #### Condition
 - Click on New step
 - Search for "Control" and click on it]
 - Click on Condition
-- In the condition area click in in the first field _Choose a value_ and click on Attachment Content <br/>
+- In the condition area click in the first field _Choose a value_ and click on Attachment Content <br/>
   ![Attachment Content](images/LogicApp-Send-Query-Results-Email-6.png)
 - In the second field select _does not contain_
 - In the last field enter PGJvZHk+VGhlIHF1ZXJ5IHlpZWxkZWQgbm8gZGF0YVRhYmxlLjwvYm9keT4= 
