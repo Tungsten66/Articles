@@ -1,6 +1,6 @@
 # Use a Logic App to send an e-mail with Log Analytics Workspace query results
 
-This walkthrough is to show you have to create a Logic App to send an e-mail if a query against a Log Analytics Workspace returns results.
+This walkthrough is to show you how to create a Logic App to send an e-mail if a query against a Log Analytics Workspace returns results.
 
 ## Cited Resources:
 [Add conditions to control workflow actions in Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-control-flow-conditional-statement?tabs=consumption) <br/>
