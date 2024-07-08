@@ -1,6 +1,6 @@
 # Use a Logic App to send Log Analytics Workspace query results to a Log Analytics Workspace table
 
-This walkthrough is to show you have to create a Logic App to send Log Analytics Workspace query results to a Log Analytics Workspace table
+This walkthrough is to show you how to create a Logic App to send Log Analytics Workspace query results to a Log Analytics Workspace table
 
 ## Cited Resources:
 [Create loops to repeat actions in workflows with Azure Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-control-flow-loops?tabs=consumption#for-each) <br/>
