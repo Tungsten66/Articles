@@ -39,6 +39,7 @@ In no apparent order
 - [The Ultimate Azure Inventory Dashboard](https://github.com/scautomation/Azure-Inventory-Workbook) - This is great to find orphaned resources
 - [Monitoring for an Azure Server Going Offline](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/monitoring-for-an-azure-server-going-offline/ba-p/4027353)
 - [New Resource Reporting](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/new-resource-reporting/ba-p/2150155)
+- [Log data ingestion time in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-ingestion-time)
 
 ## Testing
 [How to Generate Microsoft Sentinel Incidents for Testing and Demos](https://rodtrent.substack.com/p/how-to-generate-microsoft-sentinel)
