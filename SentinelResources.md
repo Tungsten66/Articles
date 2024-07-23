@@ -18,7 +18,7 @@ In no apparent order
 ## Analytics Rules
 - [NRT monitor break glass account access](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/how-to-use-microsoft-sentinel-near-real-time-detections/ba-p/2935352#:~:text=Monitor%20break%20glass%20account%20access)
 - [Keep track of Cloud Shell use](https://azurecloudai.blog/2020/08/13/azure-sentinel-analytics-rule-to-keep-track-of-cloud-shell/)
-  - The KQL in the article does not work but has been updated on Rod Trent's Github repo - [AR-CloudShellExecution.kql](https://github.com/rod-trent/SentinelKQL/blob/master/AR-CloudShellExecution.kql)
+  - The KQL in the article no longer works but has been updated on Rod Trent's Github repo - [AR-CloudShellExecution.kql](https://github.com/rod-trent/SentinelKQL/blob/master/AR-CloudShellExecution.kql)
 - [Azure Active Directory Identity Protection user account enrichments removed: how to mitigate impact](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/azure-active-directory-identity-protection-user-account/ba-p/3695968)
 - [Conditional Access policy changes](https://danielchronlund.com/2022/04/13/monitor-conditional-access-with-microsoft-sentinel/)
 - [Create an Alert in Sentinel if someone enables Copilot for Security](https://socautomators.substack.com/p/create-an-alert-in-sentinel-if-someone?r=1xuboc&utm_campaign=post&utm_medium=web&triedRedirect=true)
