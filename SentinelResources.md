@@ -1,6 +1,9 @@
 # Microsoft Sentinel resources that I have found useful
 In no apparent order
 
+## Best Practices
+[Best practices for Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/best-practices)
+
 ## Workbooks
 - Start here - [Commonly used Microsoft Sentinel workbooks](https://learn.microsoft.com/en-us/azure/sentinel/top-workbooks)
 - [Data Collection Rule Toolkit](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/create-edit-and-monitor-data-collection-rules-with-the-data/ba-p/3810987) - Create, Edit, and Monitor Data Collection Rules with the Data Collection Rule Toolkit
