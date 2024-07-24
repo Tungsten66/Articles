@@ -29,6 +29,10 @@ SecurityEvent
 | where Count > 1
 ```
 
+> [!NOTE]
+> Depending on volume and type of log ingestion you may need to change the time frame you are looking for duplicate log ingestion.
+> This can be done by changing 15m (m stands for minutes) to a larger or smaller time frame
+
 KQL results:
 
   ![kql results](images/DetectDuplicateWindowsLogIngestion-1.png)
