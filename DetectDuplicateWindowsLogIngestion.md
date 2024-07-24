@@ -3,7 +3,7 @@
 This walkthrough helps identify duplicate Windows event log ingestion in the SecurityEvent table
 
 ## Cited Resources:
-[SecurityEvent](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/securityevent)
+[SecurityEvent](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/securityevent) <br/>
 [Windows Event Collector](https://learn.microsoft.com/en-us/windows/win32/wec/windows-event-collector)
 
 ## Assumptions:
