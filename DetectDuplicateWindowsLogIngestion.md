@@ -89,4 +89,4 @@ mlz-vm-wef is also ingesting logs from a data collection rule it is a resource o
 
 ## Post Condition:
 
-Once the initial cleanup has occured I would recommend creating a Sentinel Analytics Rule so an incident will be created and appropriate people can take action.
+Once the initial cleanup has occured I would recommend creating a Sentinel Analytics Rule to alert on duplicate data ingestion.
