@@ -31,7 +31,7 @@ SecurityEvent
 
 KQL results:
 
-![kql results](images/DetectDuplicateWindowsLogIngestion-1.png)
+  ![kql results](images/DetectDuplicateWindowsLogIngestion-1.png)
 
 If results return from the query like it did mine I am going to continue narrowing down my results
 
@@ -52,7 +52,7 @@ SecurityEvent
 
 KQL results:
 
-![kql results](images/DetectDuplicateWindowsLogIngestion-2.png)
+  ![kql results](images/DetectDuplicateWindowsLogIngestion-2.png)
 
 ## Finding what is causing the duplicate logs
 Depending on how you are ingesting logs duplicate log ingestion could happen in several ways.  I am going to cover two examples
@@ -65,12 +65,12 @@ You can check this by navigating to Azure Monitor
 - Click on the resources tab
 - Search for the computer that came from your result above
 
-![data collection rules](images/DetectDuplicateWindowsLogIngestion-3.png)
+  ![data collection rules](images/DetectDuplicateWindowsLogIngestion-3.png)
 
 Click on the # in the Data Collection rules column to review the Data Collection rules the computer is a part of. <br/>
 Review results and take appropriate actions.
 
-![data collection rules](images/DetectDuplicateWindowsLogIngestion-4.png)
+  ![data collection rules](images/DetectDuplicateWindowsLogIngestion-4.png)
 
 ### Example two - Windows Event Forwarding is also being used
 If example one only returned one Data Collection Rule for the computer logs are being ingested in an additional method such as Windows Event Forwarding <br/>
@@ -82,7 +82,7 @@ SecurityEvent
 | where TimeGenerated >= ago(15m)
 | distinct Computer, LogSource = extract("virtualmachines/([^/]+)", 1, _ResourceId)
 ```
-![kql results](images/DetectDuplicateWindowsLogIngestion-5.png)
+  ![kql results](images/DetectDuplicateWindowsLogIngestion-5.png)
 
 See how the Computer and LogSource are different?  mlz-vm-wec is a Windows Event Collector receiving logs from mlz-vm-wef.  
 mlz-vm-wef is also ingesting logs from a data collection rule it is a resource of. <br/>
