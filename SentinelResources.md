@@ -61,4 +61,9 @@ In no apparent order
 -  [Log Analytics workspace data export in Azure Monitor - Supported Tables](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-data-export?tabs=portal#supported-tables)
 - [Integrate Azure Data Explorer as Long-Term Log Retention for Microsoft Sentinel - Automation](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/automation-integrate-azure-data-explorer-as-long-term-log/ba-p/2512703)
 
+## Private Endpoints
+[Azure Monitor Private Link Scope (AMPLS)](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security)
+[Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/private-link-service)
+[Private endpoints for Azure Data Explores](https://learn.microsoft.com/en-us/azure/data-explorer/security-network-private-endpoint)
+
 []()
