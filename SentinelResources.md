@@ -62,6 +62,7 @@ In no apparent order
 - [Integrate Azure Data Explorer as Long-Term Log Retention for Microsoft Sentinel - Automation](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/automation-integrate-azure-data-explorer-as-long-term-log/ba-p/2512703)
 
 ## Private Endpoints
+Using private endpoints for your resources enables you to increase security for the virtual network by enabling you to block exfiltration of data from the virtual network.
 - [Azure Monitor Private Link Scope (AMPLS)](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security)
 - [Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/private-link-service)
 - [Private endpoints for Azure Data Explores](https://learn.microsoft.com/en-us/azure/data-explorer/security-network-private-endpoint)
