@@ -9,9 +9,9 @@ This walkthrough demonstrates how to utilitize the action Run Commands to run th
 - [Create SAS tokens for your storage containers](https://learn.microsoft.com/en-us/azure/ai-services/translator/document-translation/how-to-guides/create-sas-tokens?tabs=Containers)
 
 ## Assumptions:
-- You already have an existing Azure Storage Account or created one to upload the troubleshooting files to during this walkthrough
+- You already have an existing Azure Storage Account or created one.  This will be used to upload the zip that is created from the troubleshooter
 - Created a container and generated a SAS token with write permissions and set token to expire in a short amount of time so it can not be malicious reused
-- Your account has Virtual Machine Contributor role or higher.  Running a command requires the Microsoft.Compute/virtualMachines/runCommands/action permission. 
+- You have the Virtual Machine Contributor role or higher.  Running a command requires the Microsoft.Compute/virtualMachines/runCommands/action permission. 
 
 ## Actions:
 
