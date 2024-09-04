@@ -69,7 +69,7 @@ else {
 ```
 
 > [!NOTE]
-> The storage URI used is for Azure Governement - If you want to run in Azure Cloud change https://$storageAccountName.blob.core.usgovcloudapi.net to https://$storageAccountName.blob.core.windows.net </br>
+> The storage URI used is for Azure Governement - If you want to run in Azure Cloud change blob.core.usgovcloudapi.net to blob.core.windows.net </br>
 >
 > For more security you can opt for using Managed identities to grant access to your storage data without the need to include SAS tokens with your HTTP requests.
 
