@@ -56,6 +56,9 @@ In no apparent order
 - [AzTS MMA Discovery and Removal Utility](https://github.com/azsk/AzTS-docs/tree/main/MMA%20Removal%20Utility)
 - [How to configure Security Events collection with Azure Monitor Agent](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/how-to-configure-security-events-collection-with-azure-monitor/ba-p/3770719) - Useful when migrating from legacy Log Analytics agent and the Defender for Servers auto-provisioning experience
 
+## Azure Data Explorer
+ - [Compare ingestion methods](https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-overview#compare-ingestion-methods)
+
 ## Retention
 - [Review and Manage Data Table Retention](https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Archive-Log-Tool/ArchiveLogsTool-PowerShell) - PowerShell script to view and manage Data Table Retention
 -  [Log Analytics workspace data export in Azure Monitor - Supported Tables](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-data-export?tabs=portal#supported-tables)
