@@ -67,6 +67,7 @@ In no apparent order
 ## Private Endpoints
 Using private endpoints for your resources enables you to increase security for the virtual network by enabling you to block exfiltration of data from the virtual network.
 - [Azure Monitor Private Link Scope (AMPLS)](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security)
+- [A DCE required if private link is used](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-endpoint-overview?tabs=portal#:~:text=A%20DCE%20required%20if%20private%20link%20is%20used.)
 - [Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/private-link-service)
 - [Private endpoints for Azure Data Explores](https://learn.microsoft.com/en-us/azure/data-explorer/security-network-private-endpoint)
 
