@@ -95,10 +95,6 @@ Write-Host "Decoded ASCII string: $asciiString"
 
 ![Full Logic App](images/LogicApp-Send-Query-Results-Email-8.png)
 
-> [!NOTE]
-> Once you’ve confirmed everything is functioning correctly, I suggest switching all connections made with your user account to either a system-assigned or user-assigned managed identity.  <br/>
-> Using managed identities allows you to assign Role-Based Access Control (RBAC) roles, whether built-in or custom, offering more precise access control to specific functions within the designated Azure resources.
-
 ## Post Condition:
 When a query is ran and results are returned the condition will be true and the user will receive an e-mail <br/>
 ![Application logon attempts](images/LogicApp-Send-Query-Results-Email-9.png)
@@ -107,3 +103,7 @@ When a query is ran and **no** results are returned the condition will be false 
 
 If you receive an email that doe not have any results and has "The query yielded no dataTable go back and check you entered everything in the condition correctly
 ![Application logon attempts fail](images/LogicApp-Send-Query-Results-Email-10.png)
+
+> [!NOTE]
+> Once you’ve confirmed everything is functioning correctly, I suggest switching all connections made with your user account to either a system-assigned or user-assigned managed identity.  <br/>
+> Using managed identities allows you to assign Role-Based Access Control (RBAC) roles, whether built-in or custom, offering more precise access control to specific functions within the designated Azure resources.
