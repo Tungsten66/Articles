@@ -48,6 +48,9 @@ SigninLogs
 | top 10 by Failed
 | sort by Failed
 ```
+> [!NOTE] Once you’ve confirmed everything is functioning correctly, I suggest switching all connections made with your user account to either a system-assigned or user-assigned managed identity.  <br/>
+> Using managed identities allows you to assign Role-Based Access Control (RBAC) roles, whether built-in or custom, offering more precise access control to specific functions within the designated Azure resources.
+
 
 - Time Range: The example query I used has TimeGenerated so I cam going to select _Set in query_
 - Chart Type: Html Table <br/>
@@ -103,6 +106,3 @@ When a query is ran and **no** results are returned the condition will be false 
 
 If you receive an email that doe not have any results and has "The query yielded no dataTable go back and check you entered everything in the condition correctly
 ![Application logon attempts fail](images/LogicApp-Send-Query-Results-Email-10.png)
-
-Once you’ve confirmed everything is functioning correctly, I suggest switching all connections made with your user account to either a system-assigned or user-assigned managed identity.  <br/>
-Using managed identities allows you to assign Role-Based Access Control (RBAC) roles, whether built-in or custom, offering more precise access control to specific functions within the designated Azure resources.
