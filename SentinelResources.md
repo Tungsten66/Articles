@@ -70,4 +70,9 @@ Using private endpoints for your resources enables you to increase security for 
 - [Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/private-link-service)
 - [Private endpoints for Azure Data Explores](https://learn.microsoft.com/en-us/azure/data-explorer/security-network-private-endpoint)
 
+## KQL
+- [KQL Cheat Sheet](https://github.com/marcusbakker/KQL/blob/master/kql_cheat_sheet_v01.pdf)
+- [KQL Search](https://www.kqlsearch.com/)
+- 
+
 []()
