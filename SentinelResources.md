@@ -52,7 +52,7 @@ In no apparent order
 - [Log Analytics workspaces](https://learn.microsoft.com/en-us/azure/azure-monitor/service-limits#log-analytics-workspaces)
 
 ## MMA to AMA Migration
-- [AzTS MMA Discovery and Removal Utility](https://github.com/azsk/AzTS-docs/tree/main/MMA%20Removal%20Utility)
+- [MMA/OMS Discovery and Removal Utility](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-mma-removal-tool)
 - [How to configure Security Events collection with Azure Monitor Agent](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/how-to-configure-security-events-collection-with-azure-monitor/ba-p/3770719) - Useful when migrating from legacy Log Analytics agent and the Defender for Servers auto-provisioning experience
 
 ## Azure Data Explorer
