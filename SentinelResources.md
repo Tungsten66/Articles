@@ -38,7 +38,8 @@ In no apparent order
 
 ## Azure Monitor
 - [Azure Arc for Servers Monitoring Workbook](https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-for-servers-monitoring-workbook/ba-p/3298791) - Used this to identify network connectivity issues between on-prem and Azure
-- [The Ultimate Azure Inventory Dashboard](https://github.com/scautomation/Azure-Inventory-Workbook) - This is great to find orphaned resources
+- [The Ultimate Azure Inventory Dashboard](https://github.com/scautomation/Azure-Inventory-Workbook)
+- [Azure Orphaned Resources v3.0](https://github.com/dolevshor/azure-orphan-resources/tree/main) - This is great to find orphaned resources
 - [Monitoring for an Azure Server Going Offline](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/monitoring-for-an-azure-server-going-offline/ba-p/4027353)
 - [New Resource Reporting](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/new-resource-reporting/ba-p/2150155)
 - [Log data ingestion time in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-ingestion-time)
