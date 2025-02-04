@@ -11,6 +11,7 @@ In no apparent order
 - [Microsoft Sentinel Optimization Workbook](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-microsoft-sentinel-optimization-workbook/ba-p/3901489) - Cost and Ingestion Optimization, Operational Optimization and Effectiveness, and Management and Acceleration.
 - [Conditional Access changes](https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/)
 - [Maturity Model for Event Log Management (M-21-31) Solution](https://techcommunity.microsoft.com/t5/public-sector-blog/microsoft-sentinel-maturity-model-for-event-log-management-m-21/ba-p/3074336)
+- [Attack Surface Reduction Dashboard](https://github.com/Azure/Azure-Sentinel/blob/master/Workbooks/AttackSurfaceReduction.json)
 
 ## Analytics Rules
 - [NRT monitor break glass account access](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/how-to-use-microsoft-sentinel-near-real-time-detections/ba-p/2935352#:~:text=Monitor%20break%20glass%20account%20access)
