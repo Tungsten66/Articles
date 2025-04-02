@@ -1,4 +1,4 @@
-# Azure Lab resources I use
+# Azure lab resources I use
 In no apparent order
 
 ## Starting new
