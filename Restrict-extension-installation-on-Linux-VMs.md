@@ -67,7 +67,7 @@
 
 ### Assign policy
 - Once the last section saved click on Assign policy <br/>
-![Assign policy](images/Restrict-extension-installation-on-Linux-VMs-1.png)
+![Assign policy](images/Restrict-extension-installation-on-Linux-VMs-2.png)
 - Click Next and go to Parameters section and enter the following
 - **Denied extension:** ["MDE.Linux"] <br/>
 ![Denied extension](images/Restrict-extension-installation-on-Linux-VMs-3.png)
