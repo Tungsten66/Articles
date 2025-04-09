@@ -7,16 +7,17 @@
 > [!NOTE]
 > This will only restrict new deployments of the MDE.Linux extension and will not remove any existing extensions
 
-## Cited Resources:
-[Use Azure Policy to restrict extensions installation on Linux VMs](https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/extensions-rmpolicy-howto-cli) <br/>
-[Plan Defender for Servers deployment](https://learn.microsoft.com/en-us/azure/defender-for-cloud/plan-defender-for-servers) <br/>
+## Cited Resources
 
-## Assumptions:
+- [Use Azure Policy to restrict extensions installation on Linux VMs](https://learn.microsoft.com/en-us/azure/virtual-machines/extensions/extensions-rmpolicy-howto-cli)
+- [Plan Defender for Servers deployment](https://learn.microsoft.com/en-us/azure/defender-for-cloud/plan-defender-for-servers)
+
+## Assumptions
 
 - Basic knowledge of Azure Policy
 - You have the permissions to create and assign a new policy
 
-## Steps:
+## Steps
 
 ### Create a new Policy definition
 
@@ -27,6 +28,7 @@
 - **Name:** Block VM Extensions
 - **Description:** The list of extensions that will be denied. MDE.Linux
 - POLICY RULE
+
 ```json
   {
   "mode": "All",
@@ -62,19 +64,21 @@
   }
 }
 ```
+
 - Click Save<br/>
   ![Policy definition](images/Restrict-extension-installation-on-Linux-VMs-1.png)
 
 ### Assign policy
-- Once the last section saved click on Assign policy <br/>
+
+- Once the last section saved click on Assign policy  
 ![Assign policy](images/Restrict-extension-installation-on-Linux-VMs-2.png)
 - Click Next and go to Parameters section and enter the following
-- **Denied extension:** ["MDE.Linux"] <br/>
+- **Denied extension:** ["MDE.Linux"]  
 ![Denied extension](images/Restrict-extension-installation-on-Linux-VMs-3.png)
 - Click Review + save
 
-## Post Condition:
+## Post Condition
+
 - Test everything worked
 - Continue your deployment of Defender for Servers
--  When you are ready to onboard Linux servers you can remove this policy assignment
-
+- When you are ready to onboard Linux servers you can remove this policy assignment
