@@ -65,7 +65,7 @@
 }
 ```
 
-- Click Save<br/>
+- Click Save  
   ![Policy definition](images/Restrict-extension-installation-on-Linux-VMs-1.png)
 
 ### Assign policy
