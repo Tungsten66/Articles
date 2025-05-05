@@ -70,7 +70,7 @@ Using private endpoints for your resources enables you to increase security for 
 - [Azure Monitor Private Link Scope (AMPLS)](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/private-link-security)
 - [When using AMA with AMPLS, all of your Data Collection Rules must use Data Collection Endpoints. Those DCE's must be added to the AMPLS configuration using private link.](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-network-configuration?tabs=PowerShellWindows#:~:text=When%20using%20AMA%20with%20AMPLS%2C%20all%20of%20your%20Data%20Collection%20Rules%20much%20use%20Data%20Collection%20Endpoints.%20Those%20DCE%27s%20must%20be%20added%20to%20the%20AMPLS%20configuration%20using%20private%20link)
 - [Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/private-link-service)
-- [Private endpoints for Azure Data Explores](https://learn.microsoft.com/en-us/azure/data-explorer/security-network-private-endpoint)
+- [Private endpoints for Azure Data Explorer](https://learn.microsoft.com/en-us/azure/data-explorer/security-network-private-endpoint)
 
 ## KQL
 - [KQL Cheat Sheet](https://github.com/marcusbakker/KQL/blob/master/kql_cheat_sheet_v01.pdf)
