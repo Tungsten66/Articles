@@ -14,7 +14,7 @@
 
 - A Windows Server 2022 machine is available with the Web Server (IIS) role installed, and IIS logging is configured to include additional fields in compliance with the Microsoft Internet Information Services (IIS) 10.0 Security Technical Implementation Guide (STIG), Version 3, Release 2 (Benchmark Date: 24 Oct 2024).
 - The necessary logging fields have been added, and all steps outlined in this guide assume these settings are in place.
-- ![W3C Logging Fields](images/Collect-CustomTextLogs-1.png)
+![W3C Logging Fields](images/Collect-CustomTextLogs-1.png)
 - The IIS log has been reviewed and its fields aligned with the [W3CIISLog](https://docs.azure.cn/en-us/azure-monitor/reference/tables/w3ciislog) schema to design a custom table structure.
 - A sample log was parsed using KQL to validate the schema and ensure compatibility.
 
@@ -57,7 +57,7 @@ XForwardedFor = tostring(fields[21]),
 TimeGenerated = todatetime(strcat(fields[0], " ", fields[1]))
 ```
 
-- ![KQL parsing](images/Collect-CustomTextLogs-7.png)
+![KQL parsing](images/Collect-CustomTextLogs-7.png)
 
 ## Steps
 
@@ -68,7 +68,7 @@ We need to create a custom table to send the logs to and we will do this using a
 - Sign in to the Azure Portal
 - Search for or navigate to Deploy a custom tempate
 - Click on Build your own template in the editor
-- ![TemplateEditor](images/Collect-CustomTextLogs-2.png)
+![TemplateEditor](images/Collect-CustomTextLogs-2.png)
 - Copy the following JSON into the window to replace what exists
 
 ```json
@@ -220,12 +220,12 @@ We need to create a custom table to send the logs to and we will do this using a
 - Fill in the following
 - **Resource group:** select your Resource group
 - **Workspace Name:** enter your Log Analytics Workspace name
-- ![W3C Logging Fields](images/Collect-CustomTextLogs-3.png)
+![W3C Logging Fields](images/Collect-CustomTextLogs-3.png)
 - Click Review + create
 - Click Create
 - Once your deployment is complete natigate to your Log Analytics workspace you create the table in
 - Click on the tables blade and filter by W3CIISLog_CL to review your new table
-- ![New Table](images/Collect-CustomTextLogs-4.png)
+![New Table](images/Collect-CustomTextLogs-4.png)
 
 ### Create a Data Collection Rule
 
@@ -233,7 +233,7 @@ We need to create a Data Collection Rule and we will do this using an ARM templa
 
 - Once again search for or navigate to Deploy a custom tempate
 - Click on Build your own template in the editor
-- ![TemplateEditor](images/Collect-CustomTextLogs-2.png)
+![TemplateEditor](images/Collect-CustomTextLogs-2.png)
 - Copy the following JSON into the window to replace what exists
 
 ```json
@@ -343,17 +343,17 @@ We need to create a Data Collection Rule and we will do this using an ARM templa
 - **Workspace Resource Id:** Resourse ID of Log Analytics Workspace
 - **File Patterns:** Enter the file path(s) for each IIS site you want to upload in comma separated format. Example: C:\inetpub\logs\LogFiles\W3SVC1\*.log,C:\inetpub\logs\LogFiles\W3SVC2\*.log
 - **Transform Kql:** Default entered is to process all fields from the IIS log
-- ![New DCR](images/Collect-CustomTextLogs-5.png)
+![New DCR](images/Collect-CustomTextLogs-5.png)
 - Click Review + create
 - Click Create
 - Once your deployment is complete navigate to Azure Monitor
 - Click on the Data Collection Rules blade and click on the new rule you just created
 - Click on the Resources blade and Add the IIS server you have logging configured on that you want to collect data from
-- ![Add Resource](images/Collect-CustomTextLogs-6.png)
+![Add Resource](images/Collect-CustomTextLogs-6.png)
 - Once you see *Successfully checked the existence of AMA on the resource* you can wait 5-10 minutes and test going to the Website to generate new logs
 
 ## Post Condition
 
 - Query the new table
-- ![AdvancedHunting](images/Collect-CustomTextLogs-8.png)
+![AdvancedHunting](images/Collect-CustomTextLogs-8.png)
 - Analyze the data and create analytic rules needed for custom detections.
