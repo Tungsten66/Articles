@@ -355,5 +355,5 @@ We need to create a Data Collection Rule and we will do this using an ARM templa
 ## Post Condition
 
 - Query the new table
+- - Analyze the data and create analytic rules needed for custom detections.
 ![AdvancedHunting](images/Collect-CustomTextLogs-8.png)
-- Analyze the data and create analytic rules needed for custom detections.
