@@ -14,3 +14,8 @@ In no apparent order
 - [Microsoft Configuration Manager Current Branch - Antivirus Exclusions](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/configuration-manager-current-branch-antivirus-exclusions/884831)
 - [SQL Server - Configure antivirus software to work with SQL Server](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/security/antivirus-and-sql-server)
 - [FSLogix - Configure Antivirus file and folder exclusions](https://learn.microsoft.com/en-us/fslogix/overview-prerequisites#configure-antivirus-file-and-folder-exclusions)
+
+## Defender for Cloud
+
+### Defender for Servers
+- Defender for Servers Deployment Status Workbook [Article](https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/prepare-for-upcoming-transitions-in-defender-for-servers/4098135) [Github repo](https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks/Defender%20for%20Servers%20Deployment%20Status)
