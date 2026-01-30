@@ -20,3 +20,4 @@ In no apparent order
 
 ### Defender for Servers
 - Defender for Servers Deployment Status Workbook [Article](https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/prepare-for-upcoming-transitions-in-defender-for-servers/4098135) [Github repo](https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks/Defender%20for%20Servers%20Deployment%20Status)
+- [Azure VM – MDE Onboarding Status Workbook] (https://github.com/AndrewBlumhardt/workbooks)
