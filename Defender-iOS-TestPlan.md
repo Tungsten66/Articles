@@ -1,6 +1,6 @@
 # Microsoft Defender for Endpoint on iOS — Test Plan
 
-*Last updated: March 25, 2026*
+*Last updated: March 26, 2026*
 
 **Deployment Model:** Supervised device | Zero Touch (Silent) Control Filter | Apple Business Manager | DisableSignOut = true
 
@@ -214,25 +214,10 @@ The following Intune policies must be in place before testing begins. All other 
 | 1 | Verify the default setting: `DefenderExcludeURLInReport` is **not configured** (defaults to `false`) | Phishing alerts include the full URL/domain in the Defender portal |
 | 2 | Browse to a phishing URL (e.g., `https://smartscreentestratings2.net/`) | The alert in the portal **includes** the domain name |
 | 3 | Open the Defender app → Settings | No end-user privacy toggle is displayed (supervised device) |
-| 4 | (Optional) Set `DefenderExcludeURLInReport = true` in app config | Subsequent phishing alerts in the portal **exclude** the domain name |
 
 ---
 
-### TC-12: Device Tagging
-
-| Step | Action | Expected Result |
-|------|--------|-----------------|
-| 1 | Configure a **device tag** via Intune app config policy — add key `DefenderDeviceTag` with value `TestTag` (String) | Policy deployed |
-| 2 | Open the Defender app on the device | App opens and syncs with Intune |
-| 3 | In the Defender portal, check **Device Inventory → Device details** | The device tag `TestTag` is displayed (may take up to 18 hours to reflect) |
-| 4 | Update the tag value in Intune to a new value | The tag updates in the portal after sync |
-| 5 | Remove the `DefenderDeviceTag` key from the policy | The tag is removed from the device in the portal |
-
-**Note:** Only one device tag can be configured via Intune. Additional tags can be added manually in the Microsoft Defender portal.
-
----
-
-### TC-13: Control Filter Validation (No VPN)
+### TC-12: Control Filter Validation (No VPN)
 
 | Step | Action | Expected Result |
 |------|--------|-----------------|
@@ -243,16 +228,6 @@ The following Intune policies must be in place before testing begins. All other 
 | 5 | Attempt to use a corporate VPN (if configured) alongside Defender | Both the corporate VPN and the Control Filter coexist without conflict |
 
 **Note:** The Control Filter profile does **not** work with Always-On VPN (AOVPN) due to platform restrictions.
-
----
-
-### TC-14: Suppress OS Update Notification (Optional — Default Off)
-
-| Step | Action | Expected Result |
-|------|--------|-----------------|
-| 1 | Verify `SuppressOSUpdateNotification` is **not configured** (defaults to `false`) | Defender sends OS update notifications when the iOS version has vulnerabilities |
-| 2 | When an OS update is available, check if Defender sends a notification | A notification or Device Health card indicates the OS needs updating |
-| 3 | (Optional) Set `SuppressOSUpdateNotification = true` in app config | Defender no longer sends OS update notifications; the Device Health card still shows OS status in-app |
 
 ---
 
@@ -271,9 +246,7 @@ The following Intune policies must be in place before testing begins. All other 
 | TC-09 | Device Compliance & Conditional Access | [ ] Pass [ ] Fail | | | |
 | TC-10 | Vulnerability Assessment (TVM) | [ ] Pass [ ] Fail | | | |
 | TC-11 | Privacy Controls (Supervised) | [ ] Pass [ ] Fail | | | |
-| TC-12 | Device Tagging | [ ] Pass [ ] Fail | | | |
-| TC-13 | Control Filter Validation (No VPN) | [ ] Pass [ ] Fail | | | |
-| TC-14 | Suppress OS Update Notification | [ ] Pass [ ] Fail | | | |
+| TC-12 | Control Filter Validation (No VPN) | [ ] Pass [ ] Fail | | | |
 
 ## References
 
