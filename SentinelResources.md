@@ -54,10 +54,6 @@ In no apparent order
 - [Azure Monitor service limits](https://learn.microsoft.com/en-us/azure/azure-monitor/service-limits)
 - [Log Analytics workspaces](https://learn.microsoft.com/en-us/azure/azure-monitor/service-limits#log-analytics-workspaces)
 
-## MMA to AMA Migration
-- [MMA/OMS Discovery and Removal Utility](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-mma-removal-tool)
-- [How to configure Security Events collection with Azure Monitor Agent](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/how-to-configure-security-events-collection-with-azure-monitor/ba-p/3770719) - Useful when migrating from legacy Log Analytics agent and the Defender for Servers auto-provisioning experience
-
 ## Azure Data Explorer
  - [Compare ingestion methods](https://learn.microsoft.com/en-us/azure/data-explorer/ingest-data-overview#compare-ingestion-methods)
 
