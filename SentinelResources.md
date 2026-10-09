@@ -9,7 +9,7 @@ In no apparent order
 - [Data Collection Rule Toolkit](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/create-edit-and-monitor-data-collection-rules-with-the-data/ba-p/3810987) - Create, Edit, and Monitor Data Collection Rules with the Data Collection Rule Toolkit
 - [DoD Zero Trust Strategy Workbook](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/accelerating-zero-trust-alignment-with-microsoft-sentinel/ba-p/3918125)
 - [Microsoft Sentinel Optimization Workbook](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-microsoft-sentinel-optimization-workbook/ba-p/3901489) - Cost and Ingestion Optimization, Operational Optimization and Effectiveness, and Management and Acceleration.
-- [Conditional Access changes](https://danielchronlund.com/2022/04/21/a-powerfull-conditional-access-change-dashboard-for-microsoft-sentinel/)
+- [Conditional Access changes](https://github.com/DanielChronlund/DCSecurityOperations/tree/main#sentinel-workbooks)
 - [Maturity Model for Event Log Management (M-21-31) Solution](https://techcommunity.microsoft.com/t5/public-sector-blog/microsoft-sentinel-maturity-model-for-event-log-management-m-21/ba-p/3074336)
 - [Attack Surface Reduction Dashboard](https://github.com/Azure/Azure-Sentinel/blob/master/Workbooks/AttackSurfaceReduction.json)
 
@@ -18,7 +18,7 @@ In no apparent order
 - [Keep track of Cloud Shell use](https://azurecloudai.blog/2020/08/13/azure-sentinel-analytics-rule-to-keep-track-of-cloud-shell/)
   - The KQL in the article no longer works but has been updated on Rod Trent's Github repo - [AR-CloudShellExecution.kql](https://github.com/rod-trent/SentinelKQL/blob/master/AR-CloudShellExecution.kql)
 - [Azure Active Directory Identity Protection user account enrichments removed: how to mitigate impact](https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/azure-active-directory-identity-protection-user-account/ba-p/3695968)
-- [Conditional Access policy changes](https://danielchronlund.com/2022/04/13/monitor-conditional-access-with-microsoft-sentinel/)
+- [Conditional Access policy changes](https://github.com/DanielChronlund/DCSecurityOperations/tree/main#sentinel-analytics-rules)
 - [Create an Alert in Sentinel if someone enables Copilot for Security](https://socautomators.substack.com/p/create-an-alert-in-sentinel-if-someone?r=1xuboc&utm_campaign=post&utm_medium=web&triedRedirect=true)
 - [Lookback period](https://learn.microsoft.com/en-us/azure/sentinel/detect-threats-custom?tabs=azure-portal#:~:text=The%20allowed%20range%20for%20both%20of%20these%20parameters%20is%20from%205%20minutes%20to%2014%20days)
 
