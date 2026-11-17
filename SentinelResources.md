@@ -37,6 +37,7 @@ In no apparent order
 - [Use Windows Event Forwarding to help with intrusion detection](https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/use-windows-event-forwarding-to-assist-in-intrusion-detection)
 - [Sample data collection rules (DCRs) in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-samples)  - Great reference when consolidating DCRs
 - [Structure of a data collection rule in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/data-collection-rule-structure) - Use this when manually modifying a DCR and need to understand the structure
+- [When deploying the AMA to a Virtual Machine Scale Set (VMSS), you're strongly encouraged to use a load balancer that supports the round-robin method to ensure load distribution across all deployed instances](https://learn.microsoft.com/en-us/azure/sentinel/connect-cef-syslog-ama?tabs=portal#prerequisites)
 
 ## Azure Monitor
 - [Azure Arc for Servers Monitoring Workbook](https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-for-servers-monitoring-workbook/ba-p/3298791) - Used this to identify network connectivity issues between on-prem and Azure
